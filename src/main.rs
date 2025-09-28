@@ -1,3 +1,7 @@
+mod server;
+
+use server::websocket;
+
 fn main() {
-    println!("Hello, world!");
+    websocket::fetch_market_metrics();
 }
