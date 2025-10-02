@@ -3,5 +3,5 @@ mod server;
 use server::websocket;
 
 fn main() {
-    websocket::fetch_market_metrics();
+    let _ = websocket::fetch_market_metrics();
 }
